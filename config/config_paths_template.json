@@ -1,0 +1,11 @@
+{
+  "TCGA_XENA_ROOT": "D:/AIDO-Data/UCSC_XENA",
+  "MSIGDB_HALLMARK_FILE": "D:/AIDO-Data/MSigDB/h.all.v2025.1.Hs.symbols.gmt",
+  "MSIGDB_GO_BP_FILE": "D:/AIDO-Data/MSigDB/c5.go.bp.v2025.1.Hs.symbols.gmt",
+  "MSIGDB_REACTOME_FILE": "D:/AIDO-Data/MSigDB/c2.cp.reactome.v2025.1.Hs.symbols.gmt",
+  "OUTPUT_ROOT_MAIN": "D:/AIDO-Temp/AIDO-h-Biology-II-AllCancers-MultiDB",
+  "OUTPUT_ROOT_RANDOM_PILOT": "D:/AIDO-Temp/AIDO-h-Biology-II-RandomPilot",
+  "OUTPUT_ROOT_RANDOM_T300": "D:/AIDO-Temp/AIDO-h-Biology-II-RandomGlobal-SizeBin-T300",
+  "OUTPUT_ROOT_REVIEWER_ANALYSES": "D:/AIDO-Temp/AIDO-h-Biology-II-ReviewerAnalyses",
+  "OUTPUT_ROOT_FIGURES": "D:/AIDO-Temp/AIDO-h-Biology-II-Manuscript-Figures"
+}

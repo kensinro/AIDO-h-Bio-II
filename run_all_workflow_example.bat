@@ -1,0 +1,9 @@
+@echo off
+REM Example workflow. Edit paths inside each Python script before running.
+
+python scripts\01_pathway_observation_readiness_multidb.py
+python scripts\02_random_baseline_pilot_convergence.py
+python scripts\03_sizebin_random_baseline_T300.py
+python scripts\04_reviewer_defense_analyses.py
+python scripts\05_generate_main_manuscript_figures_2_4.py
+python scripts\06_generate_supplementary_figure_S2_robust.py

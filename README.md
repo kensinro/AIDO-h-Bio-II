@@ -59,4 +59,3 @@ pip install -r requirements.txt
 
 The scripts contain Windows-style example paths used in the original analysis. Before running,
 edit the input and output paths to match your local folders. See `config/PATHS_AND_INPUTS.md`.
-# AIDO-h-Bio-II
