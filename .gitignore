@@ -1,0 +1,30 @@
+# Local configuration (may contain machine-specific paths)
+config/config_paths.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated analysis outputs
+outputs/
+results/
+figures/
+logs/
+bp_scores/
+per_cancer_results/
+per_database_results/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
