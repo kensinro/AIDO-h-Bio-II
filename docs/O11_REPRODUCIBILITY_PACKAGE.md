@@ -6,18 +6,25 @@
 
 ## Public release
 
-Complete machine-readable Supplementary Tables **S1–S18** are publicly available as assets in:
+The complete reviewer-facing supplementary-data release is:
 
 **CIX-26-0144 O11 Reproducibility Package v1.0**  
 https://github.com/kensinro/AIDO-h-Bio-II/releases/tag/CIX-26-0144-O11-v1.0
 
-The release contains 17 uploaded `.xlsx` assets covering S1–S18 (including a/b/c subdivisions where applicable).
+The release contains:
+
+- 17 uploaded `.xlsx` assets covering Supplementary Tables **S1–S18** (including a/b/c subdivisions where applicable);
+- Supplementary Table **S19** reduced-coverage stability summary;
+- Supplementary Table **S20** survival-model upgrade summary;
+- Supplementary Table **S21** GSVA/ssGSEA benchmark results;
+- Supplementary Table **S22** GSE39582 external-validation results, exact gene mapping used, and exact RFS phenotype used;
+- Supplementary Table **S23** BRCA/COAD multivariable Cox results.
 
 ## Public code and reviewer-facing revision outputs
 
 The analysis code is maintained in this public repository. The repository contains the observation-readiness, random-baseline, reviewer-defense, figure-generation, and supplementary-table export workflows together with configuration and reproducibility documentation.
 
-Machine-readable reviewer-facing summaries corresponding to Supplementary Tables **S19–S23** are public in `docs/`:
+Repository copies of the machine-readable reviewer-facing summaries corresponding to Supplementary Tables **S19–S23** are public in `docs/`:
 
 - `O11_S19_REDUCED_COVERAGE.csv`
 - `O11_S20_SURVIVAL_UPGRADE.csv`
@@ -72,7 +79,7 @@ The S19 replicate-level reduced-coverage artifact was not located as a separate 
 ## Closure status
 
 - Public code repository: **PASS**
-- Public S19–S23 reviewer-facing summaries: **PASS**
-- Public S22 mapping/phenotype support records: **PASS**
 - Public S1–S18 large-output release assets: **PASS (17/17 uploaded)**
+- Public S19–S23 revision-analysis release assets: **PASS**
+- Public S22 results + mapping + phenotype support records: **PASS**
 - O11 external reviewer delivery: **CLOSED**
