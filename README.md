@@ -12,18 +12,30 @@ reviewer-defense analyses, and manuscript/supplementary figure generation.
 
 The reviewer-facing O11 reproducibility package is public.
 
-Complete machine-readable Supplementary Tables **S1–S18** are available as assets in:
+The complete reviewer-facing supplementary-data release is:
 
 **CIX-26-0144 O11 Reproducibility Package v1.0**  
 https://github.com/kensinro/AIDO-h-Bio-II/releases/tag/CIX-26-0144-O11-v1.0
 
-The public O11 landing page and machine-readable revision-result summaries corresponding to **S19–S23** are available at:
+Release assets include:
+
+- complete machine-readable Supplementary Tables **S1–S18** as 17 XLSX assets;
+- Supplementary Table **S19** reduced-coverage stability summary;
+- Supplementary Table **S20** survival-model upgrade summary;
+- Supplementary Table **S21** GSVA/ssGSEA benchmark results;
+- Supplementary Table **S22** GSE39582 external-validation results, exact gene mapping used, and exact RFS phenotype used;
+- Supplementary Table **S23** BRCA/COAD multivariable Cox results.
+
+The public O11 landing page and repository copies of reviewer-facing revision-result records are available in `docs/`:
 
 - [`docs/O11_REPRODUCIBILITY_PACKAGE.md`](docs/O11_REPRODUCIBILITY_PACKAGE.md)
+- [`docs/O11_RELEASE_ASSET_MANIFEST.md`](docs/O11_RELEASE_ASSET_MANIFEST.md)
 - [`docs/O11_S19_REDUCED_COVERAGE.csv`](docs/O11_S19_REDUCED_COVERAGE.csv)
 - [`docs/O11_S20_SURVIVAL_UPGRADE.csv`](docs/O11_S20_SURVIVAL_UPGRADE.csv)
 - [`docs/O11_S21_GSVA_SSGSEA_BENCHMARK.csv`](docs/O11_S21_GSVA_SSGSEA_BENCHMARK.csv)
 - [`docs/O11_S22_GSE39582_EXTERNAL_VALIDATION_RESULTS.csv`](docs/O11_S22_GSE39582_EXTERNAL_VALIDATION_RESULTS.csv)
+- [`docs/O11_S22_GSE39582_GENE_MAPPING_USED.csv`](docs/O11_S22_GSE39582_GENE_MAPPING_USED.csv)
+- [`docs/O11_S22_GSE39582_RFS_PHENOTYPE_USED.csv`](docs/O11_S22_GSE39582_RFS_PHENOTYPE_USED.csv)
 - [`docs/O11_S23_MULTIVARIABLE_COX.csv`](docs/O11_S23_MULTIVARIABLE_COX.csv)
 
 The O11 page records the fixed provenance, exact MSigDB release and GMT hashes, analysis controls, frozen target identities, external-validation configuration, and the retained S19 artifact limitation.
@@ -50,10 +62,13 @@ docs/
   SUPPLEMENTARY_TABLES.md
   METHODS_SUMMARY.md
   O11_REPRODUCIBILITY_PACKAGE.md
+  O11_RELEASE_ASSET_MANIFEST.md
   O11_S19_REDUCED_COVERAGE.csv
   O11_S20_SURVIVAL_UPGRADE.csv
   O11_S21_GSVA_SSGSEA_BENCHMARK.csv
   O11_S22_GSE39582_EXTERNAL_VALIDATION_RESULTS.csv
+  O11_S22_GSE39582_GENE_MAPPING_USED.csv
+  O11_S22_GSE39582_RFS_PHENOTYPE_USED.csv
   O11_S23_MULTIVARIABLE_COX.csv
 
 archive/
@@ -71,7 +86,7 @@ archive/
 
 ## Supplementary tables
 
-Complete S1–S18 outputs are distributed through the public GitHub Release linked above. The source scripts regenerate the corresponding analysis outputs.
+Reviewer-facing Supplementary Tables S1–S23 are publicly delivered through the O11 release linked above. Repository copies of the smaller revision-result records are retained in `docs/` for direct inspection.
 
 ## Installation
 
