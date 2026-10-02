@@ -2,11 +2,24 @@
 
 This repository contains the Python analysis code for the manuscript:
 
-**Observation-readiness assessment refines pathway-level molecular interpretation in cancer transcriptomics**
+**Observation-readiness assessment supports pathway-level cancer transcriptomics interpretation through task-specific discriminability analysis**
 
 The code implements a representation-first workflow for pathway-level transcriptomic analysis:
 observation-readiness assessment, endpoint-specific discriminability analysis, random-baseline calibration,
 reviewer-defense analyses, and manuscript/supplementary figure generation.
+
+## O11 reproducibility package
+
+A public reviewer-facing O11 reproducibility landing page and machine-readable revision-result summaries are available at:
+
+- [`docs/O11_REPRODUCIBILITY_PACKAGE.md`](docs/O11_REPRODUCIBILITY_PACKAGE.md)
+- [`docs/O11_S19_REDUCED_COVERAGE.csv`](docs/O11_S19_REDUCED_COVERAGE.csv)
+- [`docs/O11_S20_SURVIVAL_UPGRADE.csv`](docs/O11_S20_SURVIVAL_UPGRADE.csv)
+- [`docs/O11_S21_GSVA_SSGSEA_BENCHMARK.csv`](docs/O11_S21_GSVA_SSGSEA_BENCHMARK.csv)
+- [`docs/O11_S22_GSE39582_EXTERNAL_VALIDATION_RESULTS.csv`](docs/O11_S22_GSE39582_EXTERNAL_VALIDATION_RESULTS.csv)
+- [`docs/O11_S23_MULTIVARIABLE_COX.csv`](docs/O11_S23_MULTIVARIABLE_COX.csv)
+
+The public O11 page records the fixed provenance, exact MSigDB release and GMT hashes, analysis controls, frozen target identities, external-validation configuration, and the retained S19 artifact limitation. Large S1-S18 supplementary outputs exceed ordinary GitHub blob-size limits and therefore require a large-file delivery mechanism (for example GitHub Release assets) or journal revision-file delivery; the repository does not falsely claim that those large files are ordinary GitHub contents.
 
 ## Repository structure
 
@@ -29,6 +42,12 @@ docs/
   OUTPUT_FILES.md
   SUPPLEMENTARY_TABLES.md
   METHODS_SUMMARY.md
+  O11_REPRODUCIBILITY_PACKAGE.md
+  O11_S19_REDUCED_COVERAGE.csv
+  O11_S20_SURVIVAL_UPGRADE.csv
+  O11_S21_GSVA_SSGSEA_BENCHMARK.csv
+  O11_S22_GSE39582_EXTERNAL_VALIDATION_RESULTS.csv
+  O11_S23_MULTIVARIABLE_COX.csv
 
 archive/
   Original uploaded scripts, pilot scripts, legacy Hallmark-only scripts, and figure-script backups.
@@ -47,7 +66,7 @@ archive/
 
 Large supplementary tables are not stored directly in this repository because of file-size limits.
 The scripts generate the source result tables used to construct the supplementary tables.
-Formatted full supplementary tables should be supplied with the manuscript submission or deposited in a data repository.
+Formatted full supplementary tables should be supplied with the manuscript submission or deposited through a large-file repository mechanism.
 
 ## Installation
 
