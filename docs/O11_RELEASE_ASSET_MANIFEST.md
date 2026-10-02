@@ -1,17 +1,15 @@
 # O11 release-asset manifest — CIX-26-0144
 
-This manifest defines the large-output assets prepared for reviewer-facing public delivery for the Cancer Informatics revision CIX-26-0144.
+This manifest records the reviewer-facing public release state for the Cancer Informatics revision CIX-26-0144.
 
-## Public GitHub contents already available
+## Public release
 
-- `docs/O11_REPRODUCIBILITY_PACKAGE.md`
-- `docs/O11_S19_REDUCED_COVERAGE.csv`
-- `docs/O11_S20_SURVIVAL_UPGRADE.csv`
-- `docs/O11_S21_GSVA_SSGSEA_BENCHMARK.csv`
-- `docs/O11_S22_GSE39582_EXTERNAL_VALIDATION_RESULTS.csv`
-- `docs/O11_S23_MULTIVARIABLE_COX.csv`
+**CIX-26-0144 O11 Reproducibility Package v1.0**  
+https://github.com/kensinro/AIDO-h-Bio-II/releases/tag/CIX-26-0144-O11-v1.0
 
-## Large S1–S18 assets staged for release delivery
+## Public S1–S18 release assets
+
+The release contains 17 uploaded XLSX assets covering Supplementary Tables S1–S18, including a/b/c subdivisions where applicable:
 
 - `Supplementary_Table_S1-S9.xlsx` — 120,897,192 bytes
 - `Supplementary_Table_S10_top_structured_favored_terms.xlsx` — 181,851,748 bytes
@@ -30,6 +28,20 @@ This manifest defines the large-output assets prepared for reviewer-facing publi
 - `Supplementary_Table_S17b_main_results_excluding_combined_cohorts.xlsx` — 161,931,467 bytes
 - `Supplementary_Table_S18a_exact_random_validation_selected_candidates.xlsx` — 159,837 bytes
 - `Supplementary_Table_S18b_exact_random_validation_T1000_results.xlsx` — 53,743 bytes
+
+## Public S19–S23 revision-analysis assets
+
+The release also contains the reviewer-facing revision-analysis records:
+
+- `Supplementary_Table_S19_reduced_coverage_stability_summary.csv`
+- `Supplementary_Table_S20_survival_model_upgrade_summary.csv`
+- `Supplementary_Table_S21_GSVA_ssGSEA_benchmark_results.csv`
+- `Supplementary_Table_S22_GSE39582_EXTERNAL_GENE_MAPPING_USED.csv`
+- `Supplementary_Table_S22_GSE39582_RFS_EXTERNAL_VALIDATION_RESULTS.csv`
+- `Supplementary_Table_S22_GSE39582_RFS_PHENOTYPE_USED.csv`
+- `Supplementary_Table_S23_BRCA_COAD_multivariable_Cox_results.csv`
+
+Repository copies of the smaller reviewer-facing records and the O11 landing page are retained in `docs/` for direct inspection.
 
 ## Provenance controls
 
@@ -50,4 +62,8 @@ The S19 replicate-level reduced-coverage artifact was not located as a separate 
 
 ## Release status
 
-The repository, landing page, provenance record, and S19–S23 machine-readable reviewer summaries are public. The S1–S18 large files are staged and listed here for GitHub Release asset upload. Three files exceed the ordinary GitHub 100 MB blob limit and therefore must be attached as release assets or deposited in another stable large-file repository rather than committed as normal repository contents.
+- Public code repository: **PASS**
+- Public S1–S18 release assets: **PASS (17/17 uploaded)**
+- Public S19–S23 revision-analysis records: **PASS**
+- Public S22 results + exact gene mapping + exact RFS phenotype: **PASS**
+- O11 external reviewer delivery: **CLOSED**
