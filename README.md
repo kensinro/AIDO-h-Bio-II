@@ -10,7 +10,14 @@ reviewer-defense analyses, and manuscript/supplementary figure generation.
 
 ## O11 reproducibility package
 
-A public reviewer-facing O11 reproducibility landing page and machine-readable revision-result summaries are available at:
+The reviewer-facing O11 reproducibility package is public.
+
+Complete machine-readable Supplementary Tables **S1–S18** are available as assets in:
+
+**CIX-26-0144 O11 Reproducibility Package v1.0**  
+https://github.com/kensinro/AIDO-h-Bio-II/releases/tag/CIX-26-0144-O11-v1.0
+
+The public O11 landing page and machine-readable revision-result summaries corresponding to **S19–S23** are available at:
 
 - [`docs/O11_REPRODUCIBILITY_PACKAGE.md`](docs/O11_REPRODUCIBILITY_PACKAGE.md)
 - [`docs/O11_S19_REDUCED_COVERAGE.csv`](docs/O11_S19_REDUCED_COVERAGE.csv)
@@ -19,7 +26,7 @@ A public reviewer-facing O11 reproducibility landing page and machine-readable r
 - [`docs/O11_S22_GSE39582_EXTERNAL_VALIDATION_RESULTS.csv`](docs/O11_S22_GSE39582_EXTERNAL_VALIDATION_RESULTS.csv)
 - [`docs/O11_S23_MULTIVARIABLE_COX.csv`](docs/O11_S23_MULTIVARIABLE_COX.csv)
 
-The public O11 page records the fixed provenance, exact MSigDB release and GMT hashes, analysis controls, frozen target identities, external-validation configuration, and the retained S19 artifact limitation. Large S1-S18 supplementary outputs exceed ordinary GitHub blob-size limits and therefore require a large-file delivery mechanism (for example GitHub Release assets) or journal revision-file delivery; the repository does not falsely claim that those large files are ordinary GitHub contents.
+The O11 page records the fixed provenance, exact MSigDB release and GMT hashes, analysis controls, frozen target identities, external-validation configuration, and the retained S19 artifact limitation.
 
 ## Repository structure
 
@@ -64,9 +71,7 @@ archive/
 
 ## Supplementary tables
 
-Large supplementary tables are not stored directly in this repository because of file-size limits.
-The scripts generate the source result tables used to construct the supplementary tables.
-Formatted full supplementary tables should be supplied with the manuscript submission or deposited through a large-file repository mechanism.
+Complete S1–S18 outputs are distributed through the public GitHub Release linked above. The source scripts regenerate the corresponding analysis outputs.
 
 ## Installation
 
