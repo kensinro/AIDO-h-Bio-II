@@ -1,30 +1,29 @@
 # O11 Reproducibility Package — CIX-26-0144
 
-**Status:** public reviewer-facing landing page  
+**Status:** public reviewer-facing reproducibility package  
 **Manuscript:** *Observation-readiness assessment supports pathway-level cancer transcriptomics interpretation through task-specific discriminability analysis*  
 **Journal / manuscript ID:** Cancer Informatics / CIX-26-0144
 
-## Purpose
+## Public release
 
-This page addresses Reviewer 2's reproducibility request by separating the public code repository from large machine-readable supplementary outputs while preserving the provenance required to audit the revised evidence chain.
+Complete machine-readable Supplementary Tables **S1–S18** are publicly available as assets in:
 
-## Public code
+**CIX-26-0144 O11 Reproducibility Package v1.0**  
+https://github.com/kensinro/AIDO-h-Bio-II/releases/tag/CIX-26-0144-O11-v1.0
 
-The analysis code is maintained in this public repository. The repository is intentionally code-focused and contains the observation-readiness, random-baseline, reviewer-defense, figure-generation, and supplementary-table export workflows together with configuration and reproducibility documentation.
+The release contains 17 uploaded `.xlsx` assets covering S1–S18 (including a/b/c subdivisions where applicable).
 
-## Public reviewer-facing revision outputs
+## Public code and reviewer-facing revision outputs
 
-The following machine-readable reviewer-facing summaries are public in `docs/`:
+The analysis code is maintained in this public repository. The repository contains the observation-readiness, random-baseline, reviewer-defense, figure-generation, and supplementary-table export workflows together with configuration and reproducibility documentation.
+
+Machine-readable reviewer-facing summaries corresponding to Supplementary Tables **S19–S23** are public in `docs/`:
 
 - `O11_S19_REDUCED_COVERAGE.csv`
 - `O11_S20_SURVIVAL_UPGRADE.csv`
 - `O11_S21_GSVA_SSGSEA_BENCHMARK.csv`
 - `O11_S22_GSE39582_EXTERNAL_VALIDATION_RESULTS.csv`
 - `O11_S23_MULTIVARIABLE_COX.csv`
-
-## Supplementary-output inventory
-
-The assembled O11 package contains the complete S1–S23 evidence chain: S1–S18 original supplementary outputs plus S19–S23 revision-result outputs. Several S1–S18 files are larger than the normal GitHub repository file-size limit and therefore cannot be stored as ordinary Git blobs. The source scripts in this repository regenerate the corresponding analysis outputs, and the full assembled large-output bundle is maintained separately as a revision-delivery artifact.
 
 ## Expression and analysis provenance
 
@@ -63,6 +62,9 @@ MSigDB human release: **v2026.1.Hs**
 
 The S19 replicate-level reduced-coverage artifact was not located as a separate retained file during the final package audit. The public S19 CSV reports the authoritative 200-replicate summary statistics from the frozen closure record; no missing replicate-level file has been reconstructed or fabricated.
 
-## Large-output delivery status
+## Closure status
 
-This public page and the public CSVs close the reviewer-facing provenance and machine-readable summary layer. The full S1–S18 large-output bundle still requires a mechanism that accepts files above ordinary GitHub blob limits, such as GitHub Release assets, or delivery through the journal revision-file mechanism. Public availability is not claimed for those large files until that upload is complete.
+- Public code repository: **PASS**
+- Public S19–S23 reviewer-facing summaries: **PASS**
+- Public S1–S18 large-output release assets: **PASS (17/17 uploaded)**
+- O11 external reviewer delivery: **CLOSED**
