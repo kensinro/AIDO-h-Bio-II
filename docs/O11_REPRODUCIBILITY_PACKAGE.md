@@ -25,6 +25,13 @@ Machine-readable reviewer-facing summaries corresponding to Supplementary Tables
 - `O11_S22_GSE39582_EXTERNAL_VALIDATION_RESULTS.csv`
 - `O11_S23_MULTIVARIABLE_COX.csv`
 
+For Supplementary Table **S22**, the exact supporting records used for the external-validation analysis are also public:
+
+- `O11_S22_GSE39582_GENE_MAPPING_USED.csv`
+- `O11_S22_GSE39582_RFS_PHENOTYPE_USED.csv`
+
+These records complement the S22 results summary by exposing the mapped frozen target genes and the exact relapse-free-survival phenotype table used in the validation analysis.
+
 ## Expression and analysis provenance
 
 - Primary processed expression input: `GE.tsv` for each analysis label.
@@ -66,5 +73,6 @@ The S19 replicate-level reduced-coverage artifact was not located as a separate 
 
 - Public code repository: **PASS**
 - Public S19–S23 reviewer-facing summaries: **PASS**
+- Public S22 mapping/phenotype support records: **PASS**
 - Public S1–S18 large-output release assets: **PASS (17/17 uploaded)**
 - O11 external reviewer delivery: **CLOSED**
